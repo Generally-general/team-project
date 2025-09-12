@@ -8,18 +8,6 @@
   <button id="btn">Load Users</button>
   <ul id="userList"></ul>
 
-  <script>
-    document.getElementById("btn").addEventListener("click", async () => {
-      const res = await fetch("/api/users"); // Calls backend
-      const users = await res.json();
-      const list = document.getElementById("userList");
-      list.innerHTML = "";
-      users.forEach(user => {
-        const li = document.createElement("li");
-        li.textContent = `${user.name}`;
-        list.appendChild(li);
-      });
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
