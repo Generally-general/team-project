@@ -16,7 +16,7 @@
       list.innerHTML = "";
       users.forEach(user => {
         const li = document.createElement("li");
-        li.textContent = `ID: ${user.id} , Name: ${user.name}`;
+        li.textContent = `${user.name}`;
         list.appendChild(li);
       });
     });
