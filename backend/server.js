@@ -4,6 +4,7 @@ const app = express();
 const port = 3000;
 
 // Serve frontend as static files
+
 app.use(express.static("frontend"));
 
 // Get users from db.json
