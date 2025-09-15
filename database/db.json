@@ -1,7 +1,7 @@
 {
   "users": [
-    { "id": 1, "name": "Pallavi" },
-    { "id": 2, "name": "Patil Arpita" },
-    { "id": 3, "name": "Pranjal Kumar" }
+    { "id": "1AM23CS129", "name": "Pallavi", "section": "C", "gender": "Female", "phno": "9451891436", "email": "shilpallavi2004@gmail.com" },
+    { "id": "1AM23CS131", "name": "Patil Arpita Mallikarjun", "section": "C", "gender": "Female", "phno": "9451891436", "email": "shilpallavi2004@gmail.com" },
+    { "id": "1AM23CS148", "name": "Pranjal Kumar", "section": "C", "gender": "Male", "phno": "9451891436", "email": "shilpallavi2004@gmail.com" }
   ]
 }
